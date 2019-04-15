@@ -1,0 +1,19 @@
+baseURL = "https://twentynineteen-hugo-demo.netlify.com/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+theme = "twentynineteen-hugo"
+
+[params]
+privacy_link = "/privacy/"
+description = "TwentyNineteen ported from WordPress"
+
+[menu]
+  [[menu.social]]
+    identifier = "github"
+    name = "Github"
+    url = "https://github.com/jeremybise/twentynineteen-hugo"
+  [[menu.social]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/gohugoio"
