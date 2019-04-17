@@ -4,6 +4,9 @@ title = "My New Hugo Site"
 
 theme = "twentynineteen-hugo"
 
+[outputs]
+Home = ["HTML", "RSS", "JSON"]
+
 [params]
 privacy_link = "/privacy/"
 description = "TwentyNineteen ported from WordPress"
